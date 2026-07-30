@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Diabetes Feast — References &amp; Citations</title>
+  <style>
+    :root {
+      --bg: #ffffff;
+      --text: #1a1a1a;
+      --secondary: #555555;
+      --accent: #006b6b;
+      --border: #e0e0e0;
+      --card-bg: #f8f8f8;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #1c1c1e;
+        --text: #f2f2f7;
+        --secondary: #aeaeb2;
+        --accent: #4db8b8;
+        --border: #38383a;
+        --card-bg: #2c2c2e;
+      }
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      background-color: var(--bg);
+      color: var(--text);
+      padding: 24px 20px 48px;
+      max-width: 680px;
+      margin: 0 auto;
+      line-height: 1.6;
+    }
+    h1 {
+      font-size: 22px;
+      font-weight: 700;
+      color: var(--accent);
+      margin-bottom: 6px;
+    }
+    .subtitle {
+      font-size: 13px;
+      color: var(--secondary);
+      margin-bottom: 28px;
+    }
+    h2 {
+      font-size: 14px;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+      color: var(--accent);
+      margin: 28px 0 12px;
+      padding-bottom: 6px;
+      border-bottom: 1px solid var(--border);
+    }
+    .card {
+      background: var(--card-bg);
+      border-radius: 10px;
+      padding: 14px 16px;
+      margin-bottom: 12px;
+      border: 1px solid var(--border);
+    }
+    .card p {
+      font-size: 14px;
+      color: var(--text);
+      margin-bottom: 6px;
+    }
+    .card .context {
+      font-size: 12px;
+      color: var(--secondary);
+      font-style: italic;
+      margin-bottom: 8px;
+    }
+    .card a {
+      display: inline-block;
+      font-size: 13px;
+      color: var(--accent);
+      text-decoration: none;
+      padding: 4px 10px;
+      border: 1px solid var(--accent);
+      border-radius: 6px;
+      margin-top: 4px;
+    }
+    .card a:hover { opacity: 0.75; }
+    .disclaimer {
+      margin-top: 36px;
+      padding: 14px 16px;
+      background: var(--card-bg);
+      border-radius: 10px;
+      border: 1px solid var(--border);
+      font-size: 12px;
+      color: var(--secondary);
+      line-height: 1.5;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>References &amp; Citations</h1>
+  <p class="subtitle">Diabetes Feast — Last updated June 2026</p>
+
+  <p style="font-size:14px; color:var(--secondary); margin-bottom:8px;">
+    The health information displayed in this app is based on published clinical
+    research and guidelines. The sources for each area are listed below.
+  </p>
+
+  <!-- GMI -->
+  <h2>Glucose Management Indicator (GMI)</h2>
+  <div class="card">
+    <p>
+      Bergenstal RM, Beck RW, Close KL, et al. <strong>Glucose Management
+      Indicator (GMI): A New Term for Estimating A1C From Continuous Glucose
+      Monitoring.</strong> <em>Diabetes Care.</em> 2018;41(11):2275–2280.
+      doi:10.2337/dc18-1581
+    </p>
+    <p class="context">
+      Source of the GMI formula used to estimate HbA1c from average glucose:
+      GMI (%) = 3.31 + 0.02392 × mean glucose (mg/dL).
+    </p>
+    <a href="https://pubmed.ncbi.nlm.nih.gov/30224348/" target="_blank">
+      View on PubMed ↗
+    </a>
+  </div>
+
+  <!-- Dawn Effect -->
+  <h2>Dawn Effect (Early-Morning Glucose Rise)</h2>
+  <div class="card">
+    <p>
+      Monnier L, Colette C, Dejager S, Owens D. <strong>Magnitude of the dawn
+      phenomenon and its impact on the overall glucose exposure in type 2
+      diabetes: is this of concern?</strong> <em>Diabetes Care.</em>
+      2013;36(12):4057–4062. doi:10.2337/dc12-2127
+    </p>
+    <p class="context">
+      Basis for dawn effect detection: early-morning glucose rises driven by
+      counter-regulatory hormones in the absence of recent food intake.
+    </p>
+    <a href="https://pubmed.ncbi.nlm.nih.gov/23990517/" target="_blank">
+      View on PubMed ↗
+    </a>
+  </div>
+  <div class="card">
+    <p>
+      Campbell PJ, Bolli GB, Cryer PE, Gerich JE. <strong>Pathogenesis of the
+      dawn phenomenon in patients with insulin-dependent diabetes
+      mellitus.</strong> <em>New England Journal of Medicine.</em>
+      1985;312(23):1473–1479. doi:10.1056/NEJM198506063122302
+    </p>
+    <p class="context">
+      Foundational description of the dawn phenomenon mechanism.
+    </p>
+    <a href="https://pubmed.ncbi.nlm.nih.gov/3887168/" target="_blank">
+      View on PubMed ↗
+    </a>
+  </div>
+
+  <!-- Post-meal exercise -->
+  <h2>Post-Meal Exercise &amp; Glucose Reduction</h2>
+  <div class="card">
+    <p>
+      Colberg SR, Sigal RJ, Yardley JE, et al. <strong>Physical
+      Activity/Exercise and Diabetes: A Position Statement of the American
+      Diabetes Association.</strong> <em>Diabetes Care.</em>
+      2016;39(11):2065–2079. doi:10.2337/dc16-1728
+    </p>
+    <p class="context">
+      ADA position statement underpinning post-meal exercise recommendations,
+      including the glucose-lowering effect of moderate-intensity activity and
+      MET-based intensity classification.
+    </p>
+    <a href="https://pubmed.ncbi.nlm.nih.gov/27926890/" target="_blank">
+      View on PubMed ↗
+    </a>
+  </div>
+  <div class="card">
+    <p>
+      Colberg SR, Zarrabi L, Bennington L, et al. <strong>Postprandial walking
+      is better for lowering the glycemic effect of dinner than pre-dinner
+      exercise in type 2 diabetic individuals.</strong> <em>Journal of the
+      American Medical Directors Association.</em> 2009;10(6):394–397.
+      doi:10.1016/j.jamda.2009.03.015
+    </p>
+    <p class="context">
+      Basis for the post-meal walk recommendation: a short walk after eating
+      is more effective at reducing postprandial glucose than exercise before
+      the meal.
+    </p>
+    <a href="https://pubmed.ncbi.nlm.nih.gov/19560716/" target="_blank">
+      View on PubMed ↗
+    </a>
+  </div>
+
+  <!-- MET values -->
+  <h2>Metabolic Equivalents (METs)</h2>
+  <div class="card">
+    <p>
+      Ainsworth BE, Haskell WL, Herrmann SD, et al. <strong>2011 Compendium
+      of Physical Activities: a second update of codes and MET values.</strong>
+      <em>Medicine &amp; Science in Sports &amp; Exercise.</em>
+      2011;43(8):1575–1581. doi:10.1249/MSS.0b013e31821ece12
+    </p>
+    <p class="context">
+      Source of MET values used to calculate exercise intensity and estimate
+      glucose offset for walking (3.5 METs), cycling, swimming, and other
+      activities.
+    </p>
+    <a href="https://pubmed.ncbi.nlm.nih.gov/21681120/" target="_blank">
+      View on PubMed ↗
+    </a>
+  </div>
+
+  <div class="disclaimer">
+    <strong>Medical Disclaimer.</strong> Diabetes Feast displays historical
+    data and calculated estimates for informational purposes only. It does not
+    provide medical advice, diagnosis, or treatment. All health decisions
+    should be made in consultation with a qualified healthcare professional.
+    The studies listed above are provided for transparency; they do not imply
+    endorsement of this app by the authors or their institutions.
+  </div>
+
+</body>
+</html>
